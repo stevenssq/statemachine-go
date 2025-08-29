@@ -2,7 +2,7 @@
 
 状态机支持父状态与子状态，一个父状态可以注册多个子状态，子状态之间可以互相跳转，但不同父状态之间的子状态是隔离的，不能跳转。
 
-simpleTest和fullTest目录中的statemachine是状态机的核心代码，simpleTest目录演示了一个简单例子，该示例只包含一个父状态，fullTest目录演示了复杂一点的例子，包含了两个父状态。
+statemachine目录中是状态机的核心代码，simpleTest目录演示了一个简单例子，该示例只包含一个父状态，fullTest目录演示了复杂一点的例子，包含了两个父状态。
 
 **1.simpleTest**
 
