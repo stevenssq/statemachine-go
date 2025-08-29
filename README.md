@@ -9,6 +9,7 @@ simpleTest和fullTest目录中的statemachine是状态机的核心代码，simpl
 编译运行方法：
 
  cd simpleTest && go build .
+ 
  ./fsm
  
  该示例的状态机框架如下图所示：
