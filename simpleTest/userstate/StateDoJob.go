@@ -2,8 +2,9 @@ package userstate
 
 import (
 	"fmt"
-	. "fsm/statemachine"
 	"time"
+
+	. "github.com/stevenssq/statemachine-go/statemachine"
 )
 
 type StateDoJob struct {

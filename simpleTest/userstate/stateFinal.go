@@ -2,7 +2,8 @@ package userstate
 
 import (
 	"fmt"
-	. "fsm/statemachine"
+
+	. "github.com/stevenssq/statemachine-go/statemachine"
 )
 
 type StateFinal struct {

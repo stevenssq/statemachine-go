@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	. "fsm/statemachine"
 	. "fsm/userstate"
 	"time"
+
+	. "github.com/stevenssq/statemachine-go/statemachine"
 )
 
 var stateMachine *StateMachine
